@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'com.netflix.feign:feign-core:8.16.0'
+    compile 'com.netflix.feign:feign-hystrix:8.16.0'
+    compile 'com.netflix.feign:feign-jackson:8.16.0'
+    compile 'io.reactivex:rxjava:1.1.2'
+    compile 'org.apache.logging.log4j:log4j-slf4j-impl:2.5'
+    compile 'org.apache.logging.log4j:log4j-api:2.5'
+    compile 'org.apache.logging.log4j:log4j-core:2.5'
+}
